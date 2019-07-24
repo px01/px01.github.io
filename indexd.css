@@ -1,0 +1,199 @@
+/*___Geral___*/
+.container-fluid{
+	padding: 120px 0px 120px 0px;
+}
+.title{
+	font-family: merienda;
+	color: #dbdbdb;
+	font-size: 45px;
+	text-align: center;
+	margin-bottom: 50px;
+	letter-spacing: 1.35px;
+	text-transform: uppercase;
+	text-shadow: 0px 3px 3px #747474;
+}
+.text{
+	font-family: lora;
+	color: #ddd;
+	font-size: 14px;
+	font-weight:600;
+	text-align: left;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+
+/* Barra de Navegação */
+.ic{
+	font-size: 24px;
+	color: silver;
+	margin: 0px 10px 0px 10px;
+}
+.ic:hover{
+	color: white;
+	transform: scale(1.3);
+	-ms-transform: scale(1.3);	/* IE 9 */
+	-webkit-transform: scale(1.3);	/* Safari */
+	transition-duration: 0.3s;
+}
+#barra_nav{
+	background-color: #000;
+	opacity: 0.9;
+	box-shadow: 0px 3px 5px #232323;
+}
+#nav_item{
+	color: #FCFCFC;
+	font-family: Merienda;
+	text-transform: uppercase;
+}
+#nav_item:hover{
+	color: #ffff44;
+	text-decoration: underline;
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);	/* IE 9 */
+	-webkit-transform: scale(1.1);	/* Safari */
+	transition-duration: 0.3s;
+}
+
+/* Seção Inicial */
+.img_perfil{
+	 width: 200px;
+	 height: 200px;
+}
+#btn_sobre{
+	background-color: #fcfcfc;
+	color: #232323;
+	font-size: 26px;
+	font-family: merienda;
+	width: auto;
+	height: 60px;
+	text-transform: uppercase;
+	border-radius: 18px;
+}
+#btn_sobre:hover{
+	text-shadow: 1px 3px 3px #daa520;
+	box-shadow: 1px 3px 3px silver;
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);	/* IE 9 */
+	-webkit-transform: scale(1.1);	/* Safari */
+	transition-duration: 0.3s;
+}
+#Inicio{
+	background: url(midia/stars3.jpg) no-repeat center fixed;
+	background-size: cover;
+	color:#FCFCFC;
+	text-shadow: 0px 3px 2px #747474;
+}
+
+/* Seção Sobre */
+#Sobre{
+	background-color: #232323;
+}
+
+/* Seção Time Line */
+#Timeline{
+	background: url(midia/bgcubesd.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+
+/*Seção Portfólio*/
+#Portfólio{
+  background-color: #232323;	
+}
+
+#img_port {
+  width: 100%;
+  min-height: 600px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 2px;
+}
+.grad_port{
+	display: flex;
+}
+.port {
+	position: relative;
+	overflow: hidden;
+}
+.img_size {
+    position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.port_title {
+    text-align: center;
+    font-size: 16px;
+    color: #fcfcfc;
+    bottom: 0;
+    z-index: 3;
+    width: 100%;
+    position: absolute;
+	text-transform: uppercase;
+    text-shadow: 0px 0px 5px #000;
+  }
+.port:hover .grad_txt {
+	transform: translateY(0%);
+}
+.grad_txt {
+	background-color: #000;
+	position: relative;
+	display: grid;
+	height: 100%;
+	opacity: 0.7;
+	transform: translateY(101%);
+	transition-duration: 0.5s;
+}
+.txt_img_port {
+	background: none;
+	font-size: 14px;
+	height: 250px;
+    color: #fcfcfc;
+    outline: none;
+	padding: 60px 30px 0px 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	transition-duration: 0.5s;
+}
+
+/* Seção Contato */
+#Contato{
+	background: url(midia/stars2.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+.map-container{
+	height: 450px;
+	overflow:hidden;
+	position:relative;
+	padding-bottom:56.25%;
+	border: 3px double #232323;
+}
+.map-container iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+/* Footer */
+.ft{
+	background-color: #111;
+	color: #fcfcfc;
+	font-weight: 600;
+	padding: 20px 0px 10px 0px;
+}
+#icon{
+	font-size: 32px;
+	color: silver;
+	opacity: 0.75;
+	margin: 0px 10px 10px 10px;
+}
+#icon:hover{
+	opacity: 1;
+	transform: scale(1.3);
+	-ms-transform: scale(1.3);	/* IE 9 */
+	-webkit-transform: scale(1.3);	/* Safari */
+	transition-duration: 0.3s;
+}
